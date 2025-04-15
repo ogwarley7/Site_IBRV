@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'MinhaFonte';  
+    src: url(Futura\ Std\ Heavy\ Oblique.ttf) format('truetype'); 
+}
+
+@font-face {
+    font-family: 'Condensed';  
+    src: url(Futura\ Std\ Heavy.ttf) format('truetype'); 
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url('imagens/Brown\ Vintage\ Minimalist\ Animated\ Artist\ Portfolio\ Presentation.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cabecalho {
+    background-color: white;
+    padding: 3px;
+    border-radius: 15px;
+}
+
+.logo {
+    float: inline-start;
+    border-radius: 15px;
+}
+h2 {
+    padding-top: 10px;
+    padding-left: 150px;
+    height: 10px;
+}
+
+.slogan {
+    padding-left: 150px;
+}
+
+.botao {
+    text-align: end;
+}
+
+.botao li {
+    margin-top: -80px;
+    list-style-type: none;
+    margin-right: 50px;
+}
+.botao li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Condensed';
+    padding: 20px;
+    border-radius: 15px;
+    border-bottom-style: solid;
+    border-color: rgb(255, 219, 140);
+}
+
+.botao a:hover {
+    background-color: rgb(255, 219, 140);
+    color: black;
+}
+
+.sobre {
+    width: 800px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: -80px;
+}
+
+h1 {
+    padding: 20px
+}
+
+.info {
+    padding: 20px;
+}
+
+

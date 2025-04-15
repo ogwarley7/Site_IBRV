@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'MinhaFonte';  
+    src: url(Futura\ Std\ Heavy\ Oblique.ttf) format('truetype'); 
+}
+
+@font-face {
+    font-family: 'Condensed';  
+    src: url(Futura\ Std\ Heavy.ttf) format('truetype'); 
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url('imagens/Brown\ Vintage\ Minimalist\ Animated\ Artist\ Portfolio\ Presentation.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecalho {
+    background-color: white;
+    padding: 3px;
+    border-radius: 15px;
+}
+
+.logo {
+    float: inline-start;
+    border-radius: 15px;
+}
+h2 {
+    padding-top: 10px;
+    padding-left: 150px;
+    height: 10px;
+}
+
+.slogan {
+    padding-left: 150px;
+}
+
+.botao {
+    text-align: end;
+}
+
+.botao li {
+    margin-top: -80px;
+    list-style-type: none;
+    margin-right: 50px;
+}
+.botao li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Condensed';
+    padding: 20px;
+    border-radius: 15px;
+    border-bottom-style: solid;
+    border-color: rgb(255, 219, 140);
+}
+
+.botao a:hover {
+    background-color: rgb(255, 219, 140);
+    color: black;
+}
+div {
+    padding-top: 300px;
+    height: 619px;
+    width: 1300px;
+    margin-left: -8px;
+}
+h1 {
+    margin-top: -50px;
+    font-family: 'MinhaFonte';
+    color: white;
+    margin-left: 300px;
+    font-size: 70px;
+}
+
+.texto {
+    margin-top: -40px;
+    font-family: 'MinhaFonte';
+    color: white;
+    margin-left: 300px;
+    font-size: 30px;
+}
+.horarios {
+    height: 300px;
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+    font-size: 20px;
+    width: 250px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: white;
+    float: inline-start;
+}
+
+.horarios li {
+    text-align: center;
+    font-family: 'Condensed';
+    list-style-type: none;
+
+}
+
+.Contato {
+    
+    border-radius: 15px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(5, 133, 5);
+    box-shadow: 5px 5px rgba(0, 255, 0, 0.966);
+}
+
+.Contato:hover {
+    background-color: rgba(0, 255, 0, 0.966);;
+}

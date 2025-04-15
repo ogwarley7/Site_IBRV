@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'MinhaFonte';  
+    src: url(Futura\ Std\ Heavy\ Oblique.ttf) format('truetype'); 
+}
+
+@font-face {
+    font-family: 'Condensed';  
+    src: url(Futura\ Std\ Heavy.ttf) format('truetype'); 
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url('../imagens/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.cabecalho {
+ 
+    background-color: white;
+    padding: 3px;
+    border-radius: 15px;
+}
+
+.logo {
+    float: inline-start;
+    border-radius: 15px;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-left: 150px;
+    height: 10px;
+}
+
+.slogan {
+    padding-left: 150px;
+}
+
+div {
+    padding-top: 300px;
+    background-color: rgba(0, 0, 0, 0.295);
+    height: 619px;
+    width: 2000px;
+    margin-left: -8px;
+}
+h1 {
+    margin-top: -50px;
+    font-family: 'MinhaFonte';
+    color: white;
+    margin-left: 300px;
+    font-size: 70px;
+}
+
+.texto {
+    margin-top: -40px;
+    font-family: 'MinhaFonte';
+    color: white;
+    margin-left: 300px;
+    font-size: 30px;
+}
+
+.menu {
+    margin-left: 300px;
+}
+
+.menu li{
+    display: inline-block;
+    list-style: none;
+}
+
+.menu a { 
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    background-color: white;
+}
+
+.menu a:hover {
+    background-color: rgb(240, 225, 143);
+}
+h3 {
+    font-family: 'Condensed';
+    color: white;
+    margin-left: 300px;
+    font-size: 30px;
+}
+.horarios {
+    list-style-type: none;
+    font-family: 'Condensed';
+    color: rgb(0, 0, 0);
+    margin-left: 300px;
+    font-size: 20px;
+    background-color: white;
+    width: 550px;
+    border-radius: 15px;
+    padding: 20px
+}
