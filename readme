@@ -1,0 +1,26 @@
+# 🌿 Site da IBRV (Igreja Batista do Rio Vermelho)
+
+Este é o site oficial da **IBRV** – uma igreja comprometida em **conhecer, viver e transmitir o amor de Deus**. Aqui, os visitantes encontram informações sobre a igreja, suas atividades, cursos e formas de contato.
+
+## 📄 Funcionalidades
+
+- Exibe a logo e slogan da IBRV
+- Apresenta a frase tema: *"We belong to Jesus."*
+- Mostra um pequeno texto sobre a missão da igreja
+- Menu com links para:
+  - Instagram da igreja
+  - Página de cursos
+  - Página "Sobre nós"
+- Lista com os **horários das atividades semanais**
+
+## 🛠️ Estrutura dos arquivos
+
+- `index.html` → Página principal
+- `style.css` → Estilos do site (responsável pelo design)
+- `imagens/logo.png` → Logo da igreja
+
+## 📌 Observações
+
+- A codificação no `<meta charset="UTF-">` parece estar incompleta. O correto seria:  
+  ```html
+  <meta charset="UTF-8">
