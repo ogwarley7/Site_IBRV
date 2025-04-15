@@ -22,5 +22,5 @@ Este é o site oficial da **IBRV** – uma igreja comprometida em **conhecer, vi
 ## 📌 Observações
 
 - A codificação no `<meta charset="UTF-">` parece estar incompleta. O correto seria:  
-  ```html
+  
   <meta charset="UTF-8">
